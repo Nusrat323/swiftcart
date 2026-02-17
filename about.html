@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SwiftCart - About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 overflow-x-hidden">
+
+
+<nav class="bg-black text-white fixed w-full z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+   <h1><a href="index.html" class="text-2xl font-bold text-orange-500">SwiftCart</a></h1> 
+    
+
+    <ul class="hidden md:flex gap-8 font-medium">
+      <li><a href="index.html" class="hover:text-orange-500">Home</a></li>
+      <li><a href="products.html" class="hover:text-orange-500">Products</a></li>
+      <li><a href="about.html" class="text-orange-500">About</a></li>
+      <li><a href="contact.html" class="hover:text-orange-500">Contact</a></li>
+    </ul>
+
+    <div class="flex items-center gap-6">
+      <button>🛒 <span class="text-orange-500 font-bold">0</span></button>
+      <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+    </div>
+  </div>
+</nav>
+
+
+<div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-70 transform -translate-x-full transition-transform duration-300 z-50">
+  <div class="bg-black w-64 h-full p-6 flex flex-col gap-6 relative">
+    <button id="close-menu" class="absolute top-4 right-4 text-2xl text-orange-500">✕</button>
+    <a href="index.html" class="text-white text-lg hover:text-orange-500">Home</a>
+    <a href="products.html" class="text-white text-lg hover:text-orange-500">Products</a>
+    <a href="about.html" class="text-orange-500 text-lg">About</a>
+    <a href="contact.html" class="text-white text-lg hover:text-orange-500">Contact</a>
+  </div>
+</div>
+
+
+<section class="pt-28 pb-16 bg-gradient-to-r from-orange-500 to-orange-400 text-white text-center">
+  <h2 class="text-4xl font-bold mb-4">About SwiftCart</h2>
+  <p class="max-w-2xl mx-auto text-lg">
+    Building a smarter and faster online shopping experience.
+  </p>
+</section>
+
+
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+  <div>
+    <h3 class="text-3xl font-bold mb-6 text-gray-800">Our Story</h3>
+    <p class="text-gray-600 mb-4">
+      SwiftCart started with a simple idea — make online shopping easier and more affordable for everyone.
+    </p>
+    <p class="text-gray-600">
+      From a small startup to a growing e-commerce platform, we continuously focus on innovation,
+      customer satisfaction, and fast delivery.
+    </p>
+  </div>
+  <div>
+    <img src="assets/about.png" class="rounded-2xl shadow-xl w-full object-cover">
+  </div>
+</section>
+
+
+<section class="bg-white py-20">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12 text-gray-800">Our Achievements</h3>
+
+    <div class="grid md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="text-4xl font-bold text-orange-500">10K+</h4>
+        <p class="text-gray-600 mt-2">Happy Customers</p>
+      </div>
+
+      <div>
+        <h4 class="text-4xl font-bold text-orange-500">500+</h4>
+        <p class="text-gray-600 mt-2">Products</p>
+      </div>
+
+      <div>
+        <h4 class="text-4xl font-bold text-orange-500">24/7</h4>
+        <p class="text-gray-600 mt-2">Support</p>
+      </div>
+
+      <div>
+        <h4 class="text-4xl font-bold text-orange-500">5★</h4>
+        <p class="text-gray-600 mt-2">Customer Rating</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-20 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12 text-gray-800">Meet Our Team</h3>
+
+    <div class="grid md:grid-cols-3 gap-10">
+
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+        <img src="assets/team1.png" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover">
+        <h4 class="font-bold text-xl">Ahmed</h4>
+        <p class="text-orange-500">Founder & CEO</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+        <img src="assets/team2.png" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover">
+        <h4 class="font-bold text-xl">Sara Khan</h4>
+        <p class="text-orange-500">Marketing Head</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+        <img src="assets/team3.png" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover">
+        <h4 class="font-bold text-xl">Imran Hossain</h4>
+        <p class="text-orange-500">Tech Lead</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12 text-gray-800">Our Core Values</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 shadow-lg rounded-2xl">
+        <h4 class="text-xl font-bold text-orange-500 mb-3">Integrity</h4>
+        <p class="text-gray-600">We believe in honesty and transparency.</p>
+      </div>
+
+      <div class="p-6 shadow-lg rounded-2xl">
+        <h4 class="text-xl font-bold text-orange-500 mb-3">Innovation</h4>
+        <p class="text-gray-600">We continuously improve and adapt.</p>
+      </div>
+
+      <div class="p-6 shadow-lg rounded-2xl">
+        <h4 class="text-xl font-bold text-orange-500 mb-3">Customer First</h4>
+        <p class="text-gray-600">Customer satisfaction is our priority.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-orange-500 text-white py-16 text-center">
+  <h3 class="text-3xl font-bold mb-4">Ready to Shop With Us?</h3>
+  <p class="mb-6">Discover amazing products at unbeatable prices.</p>
+  <a href="products.html" class="bg-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition">
+    Explore Products
+  </a>
+</section>
+
+<footer class="bg-black text-gray-300 mt-20">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 pb-10 pt-12">
+      <div>
+        <h3 class="text-white font-bold mb-4">SwiftCart</h3>
+        <p>Your trusted online shopping partner.</p>
+      </div>
+      <div>
+        <h3 class="text-white font-bold mb-4">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:text-orange-500">Home</a></li>
+          <li><a href="products.html" class="hover:text-orange-500">Products</a></li>
+          <li><a href="about.html" class="hover:text-orange-500">About</a></li>
+          <li><a href="contact.html" class="hover:text-orange-500">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-white font-bold mb-4">Newsletter</h3>
+        <input type="email" placeholder="Your Email" class="p-2 rounded w-full mb-3 text-black">
+        <button class="bg-orange-500 w-full py-2 rounded text-white">Subscribe</button>
+      </div>
+      <div>
+        <h3 class="text-white font-bold mb-4">Follow Us</h3>
+        <div class="flex gap-4 ">
+         <a href="https://www.facebook.com/" target="_blank"><img  src="assets/facebook.png" class="w-8 hover:scale-110 transition cursor-pointer"></a> 
+  
+          <a  href="https://www.instagram.com/" target="_blank"><img src="assets/instagram.png" class="w-8 hover:scale-110 transition cursor-pointer"></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="assets/youtube.png" class="w-8 hover:scale-110 transition cursor-pointer"></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-4 border-t border-gray-700">
+      © <span id="current-year"></span> SwiftCart. All rights reserved.
+    </div>
+  </footer>
+
+<script>
+  document.getElementById("current-year").innerText = new Date().getFullYear();
+
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const closeMenu = document.getElementById("close-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("-translate-x-full");
+  });
+
+  closeMenu.addEventListener("click", () => {
+    mobileMenu.classList.add("-translate-x-full");
+  });
+</script>
+
+</body>
+</html>
+
+
+
